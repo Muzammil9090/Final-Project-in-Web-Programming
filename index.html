@@ -1,72 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<link rel="stylesheet" href="style.css">
-  <title>Car World</title>
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muzammil Ali | Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body { font-family: 'Inter', sans-serif; background-color: #fafafa; }
+    </style>
 </head>
-<body>
+<body class="text-gray-800 antialiased">
 
-  <header>
-    <h1>Welcome to Car World</h1>
-    <nav>
-      <a href="#design">Design</a>
-      <a href="#color">Color</a>
-      <a href="#tyres">Tyres</a>
-      <a href="#interior">Interior</a>
-      <a href="#parts">Parts</a>
-    </nav>
-  </header>
+    <div class="max-w-3xl mx-auto px-6 py-20">
+        
+        <header class="mb-16">
+            <h1 class="text-4xl font-bold tracking-tight text-black">Muzammil Ali</h1>
+            <p class="text-lg text-gray-500 mt-2">Student @ University of Lahore (Sem 5)</p>
+            <div class="flex gap-4 mt-4 text-sm font-medium text-blue-600">
+                <a href="https://github.com/Muzammil9090" class="hover:underline">GitHub</a>
+                <a href="#" class="hover:underline">LinkedIn</a>
+                <a href="mailto:your-email@example.com" class="hover:underline">Email</a>
+            </div>
+        </header>
 
-  <main class="container">
-    <div class="card" id="design">
-      <h2>Car Designing</h2>
-      <img src="car-design.jpg" alt="Car Design" class="car-img" />
-      <p>Explore the aesthetics and aerodynamics of modern car designs.</p>
+        <section class="mb-12">
+            <h2 class="text-sm uppercase tracking-widest text-gray-400 font-bold mb-4">About</h2>
+            <p class="leading-relaxed text-gray-700">
+                Aspiring DevOps Engineer and Web Developer. I specialize in building automated CI/CD pipelines 
+                using Jenkins and Docker, ensuring code quality through SonarQube, and developing clean web interfaces.
+            </p>
+        </section>
+
+        <section class="mb-12">
+            <h2 class="text-sm uppercase tracking-widest text-gray-400 font-bold mb-4">Projects</h2>
+            <div class="space-y-6">
+                <div>
+                    <h3 class="font-bold text-lg">Final Project: Web Programming</h3>
+                    <p class="text-gray-600 text-sm">Automated deployment pipeline with Jenkins, Docker, and SonarQube integration.</p>
+                </div>
+                <div>
+                    <h3 class="font-bold text-lg">Infrastructure Automation</h3>
+                    <p class="text-gray-600 text-sm">Configuring Nginx web servers and managing SSH-based remote deployments.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="mb-12">
+            <h2 class="text-sm uppercase tracking-widest text-gray-400 font-bold mb-4">Skills</h2>
+            <div class="flex flex-wrap gap-2">
+                <span class="bg-gray-200 px-3 py-1 rounded-full text-xs font-medium">Jenkins</span>
+                <span class="bg-gray-200 px-3 py-1 rounded-full text-xs font-medium">Docker</span>
+                <span class="bg-gray-200 px-3 py-1 rounded-full text-xs font-medium">Ubuntu/Linux</span>
+                <span class="bg-gray-200 px-3 py-1 rounded-full text-xs font-medium">SonarQube</span>
+                <span class="bg-gray-200 px-3 py-1 rounded-full text-xs font-medium">HTML/CSS</span>
+            </div>
+        </section>
+
+        <footer class="pt-10 border-t border-gray-200 text-gray-400 text-sm">
+            &copy; 2025 Muzammil Ali. Built with ☕ in Lahore.
+        </footer>
     </div>
 
-    <div class="card" id="color">
-      <h2>Car Coloring</h2>
-      <p>Custom paint jobs using the <span class="highlight">latest color technologies</span>.</p>
-    </div>
-
-    <div class="card" id="tyres">
-      <h2>Tyre Fitting</h2>
-      <p>High-performance tyre fitting services for all car models.</p>
-    </div>
-
-    <div class="card" id="interior">
-      <h2>Interior</h2>
-      <p>Luxury interiors with customizable seating, dashboards, and lighting.</p>
-    </div>
-
-    <div class="card" id="parts">
-      <h2>Car Parts</h2>
-      <ul>
-        <li>Engine</li>
-        <li>Suspension</li>
-        <li>Transmission</li>
-        <li>Exhaust</li>
-      </ul>
-    </div>
-
-    <div class="card">
-      <h2>Contact Us</h2>
-      <form>
-        <label>Name: <input type="text" name="name" /></label><br><br />
-        <label>Email: <input type="email" name="email" /></label><br><br />
-        <label>Message:<textarea name="message"></textarea></label><br><br />
-        <button type="submit">Send</button>
-      </form>
-    </div>
-  </main>
-
-  <footer>
-    <p>&copy; 2025 Car World. All rights reserved.</p>
-  </footer>
-
-  <script src="script.js"></script>
 </body>
 </html>
